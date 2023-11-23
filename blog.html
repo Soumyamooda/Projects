@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Blogs</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background: rgba(27, 27, 27); 
+        font-family: "Poppins", sans-serif; 
+    }
+    h2{
+        text-align: center;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .head{
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        background: white;
+        width: 250px;
+        height: 400px;
+        margin: 10px;
+        border-radius: 15px 15px;
+    }
+    .fir{
+        border-radius: 15px;
+       background-color:aqua;
+       height: 160px;
+        margin-bottom: 15px;
+        background-size: cover;
+    }
+    .fir img{
+        border-radius: 15px;
+        width: 250px;
+        border-radius: 15px;
+    }
+    .sec img{
+        width: 250px;
+        height: 170px;
+        border-radius: 15px;
+    }
+    .th img{
+        height: 170px;
+        width: 250px;
+        border-radius: 15px;
+    }
+    .fir a,
+    .sec a,
+    .th a{
+        text-align: center;
+        margin: 3px;
+    }
+    button{
+        display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color:cyan;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+    p{
+        font-size: 13px;
+        text-align: center;
+    }
+    
+</style>
+<body>
+    <h2>Welcome to FOSS blogs</h2>
+    <section class="head ">
+        <div class="card">
+            <div class="fir">
+                <img src="fir2.jpg" alt="first">
+                <a href="https://www.openlogic.com/blog/open-source-compliance-overview"><h1><b>Unpacking Open Source Compliance</b></h1></a>
+                <p>Open source compliance refers to adherence to policies related to the use of open source software.
+                     These policies may be internal and enforced by an organization's IT security team, or externally mandated by an outside source.  </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="sec">
+                <img src="open.jpg" alt="first">
+                <a href="https://blog.opensource.org/three-highlights-from-open-source-summit-europe-2023/"><h1><b>Three highlights from Open Source Summit Europe 2023</b></h1></a>  
+                <p>The Open Source Summit Europe is a conference organized by the Linux Foundation with the goal of bringing together Open Source developers, technologists and community leaders to collaborate and gain knowledge.</p>    
+            </div>
+        </div>
+        <div class="card">
+            <div class="th">
+                <img src="third.jpg" alt="first">
+                <a href="https://blog.opensource.org/opensource-com-community-finds-new-life-with-the-open-source-initiative/"><h1><b>Opensource.com Community Finds New Life With the Open Source Initiative</b></h1></a>
+                <p>Open Source enthusiasts have grown to rely on unbiased, community-led content.</p>
+            </div>
+        </div>
+    </section>
+    <button><a href="create.html">Create account</a></button>
+</body>
+</html>

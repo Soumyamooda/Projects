@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Club - Registration</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navigation Bar (You can reuse the navigation bar from the previous example) -->
+    <!-- ... -->
+
+    <!-- Registration Form -->
+    <div class="container mt-5">
+        <h2>Registration Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="year">Year:</label>
+                <input type="text" class="form-control" id="year" placeholder="Enter your year of study" required>
+            </div>
+            <div class="form-group">
+                <label for="branch">Branch:</label>
+                <input type="text" class="form-control" id="branch" placeholder="Enter your branch" required>
+            </div>
+            <div class="form-group">
+                <label for="roll">Roll No:</label>
+                <input type="text" class="form-control" id="roll" placeholder="Enter your roll number" required>
+            </div>
+            <div class="form-group">
+                <label for="choice">Choice of Domain:</label>
+                <select class="form-control" id="choice">
+                    <option>Core Committee</option>
+                    <option>Open Source Contribution</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="preferences">Domain Preferences:</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="graphicDesigning">
+                    <label class="form-check-label" for="graphicDesigning">Graphic Designing</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="eventManagement">
+                    <label class="form-check-label" for="eventManagement">Event Management</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="publicity">
+                    <label class="form-check-label" for="publicity">Publicity</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="database">
+                    <label class="form-check-label" for="database">Database</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="treasury">
+                    <label class="form-check-label" for="treasury">Treasury</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="documentationTech">
+                    <label class="form-check-label" for="documentationTech">Documentation Tech</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
